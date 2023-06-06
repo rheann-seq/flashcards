@@ -1,0 +1,52 @@
+*{
+    font-family:'Poppins', sans-serif;
+    font-size: x-large;
+}
+#flip-card{
+    position: relative;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+    height: 230px;
+}
+#flip-card .front{
+    position: relative;
+    text-align: center;
+    bottom: 150px;
+    /*transition: all 1s ease-in-out;*/
+    backface-visibility: hidden;
+}
+#flip-card .back{
+    position: relative;
+    text-align: center;
+    /*transition: all 1s ease-in-out;*/
+    backface-visibility: hidden;
+    bottom: 167px;
+    transform: rotateY(180deg);
+}
+.do-flip{
+    transform: rotateY(180deg);
+}
+
+.container3{
+    text-align: center;
+}
+/*.text-block{
+    position: absolute;
+    color: black;
+    bottom: 20px;
+    right: 20px;
+    left: 20 px;
+    border: black
+}*/
+.flipCardButtons{
+    text-align: center;
+}
+.button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.cardButtons{
+    text-align: center;
+}

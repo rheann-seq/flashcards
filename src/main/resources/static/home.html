@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn through flashcards!</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/add.js"></script>
+        <script type="text/javascript" src="../js/study.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/flashcard.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+        </style>
+    </head>
+    <body>
+        <br>
+
+        <div id="flip-card">
+            <img src="Card.jpg" alt="Card">
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+        <br>
+        <div class="flipCardButtons">
+            <button class="button" onclick="myFunction()" border="0">
+                <img src="Flip.jpg" alt="Flip" border="0">
+            </button>
+        </div>
+
+        <br>
+        <div class="cardButtons">
+            <a href='javascript:;' onclick='show_prev_card();' class="button">
+                <img src="PrevButton.jpg" width="125" height="50">
+            </a>
+            <a href='javascript:;' onclick='show_next_card();' class="button">
+                <img src="NextButton.jpg" width="125" height="50">
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class="cardButtons">
+            <a href="add.html">
+                <img src="AddCard.jpg" alt="add" width="125" height="50">
+            </a>
+        </div>
+
+
+
+
+    </body>
+</html>
